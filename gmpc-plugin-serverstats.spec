@@ -5,19 +5,19 @@
 Summary:	Serverstats plugin for Gnome Music Player Client
 Summary(pl.UTF-8):Wtyczka serverstats dla odtwarzacza Gnome Music Player Client
 Name:		gmpc-plugin-serverstats
-Version:	0.16.96
+Version:	0.17.0
 Release:	0.1
 License:	GPL
 Group:		X11/Applications/Sound
 Source0:	http://dl.sourceforge.net/musicpd/%{source_name}-%{version}.tar.gz
-# Source0-md5:	46401c5cc097ff7397045aba9f106939
-URL:		http://www.sarine.nl//gmpc-plugins
+# Source0-md5:	de54639462697c0d8a98644fb4d089bf
+URL:		http://gmpcwiki.sarine.nl/index.php?title=Server_statistics
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	gmpc-devel >= 0.16.96
+BuildRequires:	gmpc-devel >= 0.17.0
 BuildRequires:	gtk+2-devel >= 2:2.4
 BuildRequires:	libglade2-devel
-BuildRequires:	libmpd-devel >= 0.16.96
+BuildRequires:	libmpd-devel >= 0.17.0
 BuildRequires:	libnotify-devel
 BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
